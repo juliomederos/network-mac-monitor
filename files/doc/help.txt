@@ -1,0 +1,12 @@
+script: main.py
+args:
+    NETWORK : network to scan.
+    SCAN_INTERVAL (optional) : time between each network scan in seconds. 5 seconds by default.
+
+In order to scan the network this program the user should have enough permissions.
+
+(sudo) python3 main.py NETWORK SCAN_INTERVAL
+
+Usage example: \n
+    (sudo) python3 main.py 192.168.0.0/24 \n
+    (sudo) python3 main.py 192.168.0.0/24 5
